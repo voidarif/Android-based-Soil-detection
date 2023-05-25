@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Soil Detection</string>
+
+    <string name="information1">
+        1. First click on camera.
+    </string>
+
+    <string name="information2">
+        2. On camera mode take a photo of soil.
+    </string>
+
+    <string name="information3">
+        3. After taking photo click OK.
+    </string>
+
+    <string name="information4">
+        4. Then it will show the result.
+    </string>
+
+    <string name="information5">
+        5. For crops suggestion click on sprout button.
+    </string>
+</resources>

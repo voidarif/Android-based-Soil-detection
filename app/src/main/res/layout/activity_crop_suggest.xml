@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5E14E1"
+    tools:context=".cropSuggest">
+
+    <TextView
+        android:id="@+id/show_soil_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Soil"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:paddingLeft="10dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suggested Crops"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/suggestedCrops"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suggested Crops"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
